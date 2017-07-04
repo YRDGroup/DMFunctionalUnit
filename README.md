@@ -11,7 +11,7 @@
     #import "DMFunctionalUnit.h"
 ```
 
-##生成渐变色图片
+## 生成渐变色图片
 ```objective-c
     UINavigationBar *navBar = [UINavigationBar appearance];
     // 1.2.设置导航栏背景
