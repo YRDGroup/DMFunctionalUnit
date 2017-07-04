@@ -44,7 +44,6 @@
 		EB0745A31F0B68F70021F883 /* UIColor+dm_color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+dm_color.m"; sourceTree = "<group>"; };
 		EB0745A41F0B68F70021F883 /* UIImage+dm_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+dm_image.h"; sourceTree = "<group>"; };
 		EB0745A51F0B68F70021F883 /* UIImage+dm_image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+dm_image.m"; sourceTree = "<group>"; };
-		EB0745A81F0B708F0021F883 /* DMFunctionalUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMFunctionalUnit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +113,6 @@
 				EB0745A51F0B68F70021F883 /* UIImage+dm_image.m */,
 				EB0745961F0B666E0021F883 /* UIViewController+DMSuperPopViewController.h */,
 				EB0745971F0B666E0021F883 /* UIViewController+DMSuperPopViewController.m */,
-				EB0745A81F0B708F0021F883 /* DMFunctionalUnit.h */,
 			);
 			name = DMFunctionalUnit;
 			path = ../../DMFunctionalUnit;
