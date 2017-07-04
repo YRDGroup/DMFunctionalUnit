@@ -1,6 +1,16 @@
 # DMFunctionalUnit
 拆分各种功能组件，便于复用和梳理
 
+## 开始
+支持Pod，或手动导入文件夹DMFunctionalUnit
+```bash
+    pod 'DMFunctionalUnit'
+```
+
+```objective-c
+    #import "DMFunctionalUnit.h"
+```
+
 ##生成渐变色图片
 ```objective-c
     UINavigationBar *navBar = [UINavigationBar appearance];
