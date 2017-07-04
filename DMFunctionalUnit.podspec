@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/YRDGroup/DMFunctionalUnit.git",  :branch => "master", :tag => "1.0.0" }
   s.source_files  = "DMFunctionalUnit", "DMFunctionalUnit/**/*.{h,m}"
+  s.source_files  = "DMFunctionalUnit", "DMFunctionalUnit/**/*.{h}"
   s.requires_arc = true
 end
