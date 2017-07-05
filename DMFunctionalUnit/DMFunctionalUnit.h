@@ -11,7 +11,6 @@
 
 #import "UIColor+dm_color.h"
 #import "UIImage+dm_image.h"
-#import "UIViewController+DMSuperPopViewController.h
-
+#import "UIViewController+DMSuperPopViewController.h"
 
 #endif /* DMFunctionalUnit_h */

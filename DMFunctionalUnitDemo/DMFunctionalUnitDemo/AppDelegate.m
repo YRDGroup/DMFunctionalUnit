@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "UIImage+dm_image.h"
-#import "UIColor+dm_color.h"
+#import "DMFunctionalUnit.h"
+
 #define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height
 
