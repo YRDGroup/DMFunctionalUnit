@@ -114,6 +114,7 @@
 		EB0745951F0B66380021F883 /* DMFunctionalUnit */ = {
 			isa = PBXGroup;
 			children = (
+				EB0745AC1F0B7A3E0021F883 /* DMFunctionalUnit.h */,
 				EB60DD571F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.h */,
 				EB60DD581F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.m */,
 				EB60DD591F1DB8360092C0C1 /* UIScrollView+AdaptiveKeyboardHeight.h */,
@@ -124,7 +125,6 @@
 				EB0745A51F0B68F70021F883 /* UIImage+dm_image.m */,
 				EB0745961F0B666E0021F883 /* UIViewController+DMSuperPopViewController.h */,
 				EB0745971F0B666E0021F883 /* UIViewController+DMSuperPopViewController.m */,
-				EB0745AC1F0B7A3E0021F883 /* DMFunctionalUnit.h */,
 			);
 			name = DMFunctionalUnit;
 			path = ../../DMFunctionalUnit;
