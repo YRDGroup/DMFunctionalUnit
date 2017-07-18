@@ -11,6 +11,11 @@
 
 #import "UIColor+dm_color.h"
 #import "UIImage+dm_image.h"
+//超级回跳
 #import "UIViewController+DMSuperPopViewController.h"
+//手势返回
+#import "UINavigationController+FDFullscreenPopGesture.h"
+//键盘自适应高度
+#import "UIScrollView+AdaptiveKeyboardHeight.h"
 
 #endif /* DMFunctionalUnit_h */
