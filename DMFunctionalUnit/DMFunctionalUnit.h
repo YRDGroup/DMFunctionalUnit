@@ -18,4 +18,8 @@
 //键盘自适应高度
 #import "UIScrollView+AdaptiveKeyboardHeight.h"
 
+//获取controller 实例
+#import "UIViewController+GetInstanceTypeByXibORStoryboard.h"
+
+
 #endif /* DMFunctionalUnit_h */
