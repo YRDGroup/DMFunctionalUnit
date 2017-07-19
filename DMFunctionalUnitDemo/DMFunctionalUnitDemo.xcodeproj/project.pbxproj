@@ -21,6 +21,7 @@
 		EB0745A71F0B68F70021F883 /* UIImage+dm_image.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0745A51F0B68F70021F883 /* UIImage+dm_image.m */; };
 		EB60DD5B1F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD581F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		EB60DD5C1F1DB8360092C0C1 /* UIScrollView+AdaptiveKeyboardHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DD5A1F1DB8360092C0C1 /* UIScrollView+AdaptiveKeyboardHeight.m */; };
+		EB60DDA51F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60DDA41F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		EB60DD581F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		EB60DD591F1DB8360092C0C1 /* UIScrollView+AdaptiveKeyboardHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AdaptiveKeyboardHeight.h"; sourceTree = "<group>"; };
 		EB60DD5A1F1DB8360092C0C1 /* UIScrollView+AdaptiveKeyboardHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AdaptiveKeyboardHeight.m"; sourceTree = "<group>"; };
+		EB60DDA31F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GetInstanceTypeByXibORStoryboard.h"; sourceTree = "<group>"; };
+		EB60DDA41F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GetInstanceTypeByXibORStoryboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				EB0745A51F0B68F70021F883 /* UIImage+dm_image.m */,
 				EB0745961F0B666E0021F883 /* UIViewController+DMSuperPopViewController.h */,
 				EB0745971F0B666E0021F883 /* UIViewController+DMSuperPopViewController.m */,
+				EB60DDA31F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.h */,
+				EB60DDA41F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.m */,
 			);
 			name = DMFunctionalUnit;
 			path = ../../DMFunctionalUnit;
@@ -203,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB60DD5B1F1DB8360092C0C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				EB60DDA51F1F0BD30092C0C1 /* UIViewController+GetInstanceTypeByXibORStoryboard.m in Sources */,
 				EB0745981F0B666E0021F883 /* UIViewController+DMSuperPopViewController.m in Sources */,
 				EB0745861F0B66230021F883 /* ViewController.m in Sources */,
 				EB07459E1F0B68880021F883 /* ViewController3.m in Sources */,
