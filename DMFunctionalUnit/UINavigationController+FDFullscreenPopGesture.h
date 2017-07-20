@@ -21,11 +21,6 @@
 // SOFTWARE.
 
 #import <UIKit/UIKit.h>
-/// The gesture recognizer that actually handles interactive pop delegate
-@protocol FDFullscreenPopGestureDelegate  <NSObject>
-- (BOOL)fd_gestureRecognizerShouldBegin:(UIPanGestureRecognizer *)gestureRecognizer;
-@end
-
 
 /// "UINavigation+FDFullscreenPopGesture" extends UINavigationController's swipe-
 /// to-pop behavior in iOS 7+ by supporting fullscreen pan gesture. Instead of
@@ -59,9 +54,5 @@
 /// checked when view controller based navigation bar's appearance is enabled.
 /// Default to NO, bars are more likely to show.
 @property (nonatomic, assign) BOOL fd_prefersNavigationBarHidden;
-
-/// Max allowed initial distance to left edge when you begin the interactive pop
-/// gesture. 0 by default, which means it will ignore this limit.
-@property (nonatomic, assign) CGFloat fd_interactivePopMaxAllowedInitialDistanceToLeftEdge;
 
 @end
