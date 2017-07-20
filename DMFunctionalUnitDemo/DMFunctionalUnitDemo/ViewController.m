@@ -18,9 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"的哥";
+    
+    
     self.view.backgroundColor = [UIColor dm_randomColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {

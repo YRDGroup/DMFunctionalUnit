@@ -17,9 +17,14 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 //键盘自适应高度
 #import "UIScrollView+AdaptiveKeyboardHeight.h"
-
 //获取controller 实例
 #import "UIViewController+GetInstanceTypeByXibORStoryboard.h"
+
+//设置导航栏ui
+#import "DMNavigationBarConfig.h"
+
+//拦截返回事件
+#import "UIViewController+BackButtonHandler.h"
 
 
 #endif /* DMFunctionalUnit_h */

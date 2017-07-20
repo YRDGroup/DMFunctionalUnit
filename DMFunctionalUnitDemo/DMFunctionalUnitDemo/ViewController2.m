@@ -7,6 +7,7 @@
 //
 
 #import "ViewController2.h"
+#import "DMFunctionalUnit.h"
 
 @interface ViewController2 ()
 
@@ -16,12 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.fd_interactivePopDisabled = YES;
+    
+//     [self setUpNavBarButtonWithImage:[UIImage imageNamed:@"common_backBtn"]];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(BOOL)navigationShouldPopOnBackButton
+{
+    return YES;
 }
 
 /*
